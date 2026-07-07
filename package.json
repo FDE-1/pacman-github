@@ -1,0 +1,19 @@
+{
+  "name": "pacman-eats-everything",
+  "version": "2.0.0",
+  "description": "Animated Pac-Man contribution graph for GitHub profiles: a full simulated game where every contribution day carries a pellet.",
+  "main": "src/index.js",
+  "bin": { "pacman-eats-everything": "src/index.js" },
+  "scripts": {
+    "generate": "node src/index.js",
+    "smoke": "node src/index.js --mock --theme light --output dist/pacman-light.svg && node src/index.js --mock --theme dark --output dist/pacman-dark.svg",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "engines": { "node": ">=20" },
+  "keywords": ["github", "contribution-graph", "pacman", "svg", "animation", "profile-readme"],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
