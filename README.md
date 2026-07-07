@@ -1,6 +1,6 @@
 # pacman-eats-everything 🟡👻
 
-[![CI](https://github.com/FDE-1/pacman-eats-everything/actions/workflows/ci.yml/badge.svg)](https://github.com/FDE-1/pacman-eats-everything/actions/workflows/ci.yml)
+[![CI](https://github.com/FDE-1/pacman-github/actions/workflows/ci.yml/badge.svg)](https://github.com/FDE-1/pacman-github/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Node >= 20](https://img.shields.io/badge/node-%3E%3D20-brightgreen)
 ![Zero runtime dependencies](https://img.shields.io/badge/runtime%20deps-0-success)
